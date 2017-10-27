@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 
 import './index.css';
 import Color from './components/Color'
+import Name from './components/Name'
 
 
 class Profile extends React.Component{
@@ -81,8 +82,13 @@ ReactDOM.render(
 
 ReactDOM.render(
 	<Color />,
-	document.getElementById('name')
+	document.getElementById('color')
 )
+
+ReactDOM.render(
+	<Name />,
+	document.getElementById('name-change')
+	)
 
 
 
